@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project default="package" xmlns="http://nant.sf.net/release/0.85/nant.xsd">
+  <include buildfile="properties.include"/>
+  <target name="package">
+		<mkdir dir="${dist}/${version}"/>
+		<delete>
+			<fileset basedir="${dist}/${version}">
+				<include name="${project.name}*.zip"/>
+			</fileset>
+		</delete>
+		<zip zipfile="${dist}/${version}/${project.name}_${version}.zip">
+			<fileset basedir="${src}/GoogleAppEngineLauncher/bin/${build.config}">
+				<include name="GoogleAppEngine.dll"/>
+				<include name="GoogleAppEngineLauncher.exe"/>
+			</fileset>
+			<fileset basedir="${src}">
+				<include name="*.txt"/>
+			</fileset>
+		</zip>
+	</target>
+</project>

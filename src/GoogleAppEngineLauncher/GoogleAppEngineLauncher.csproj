@@ -55,8 +55,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\GoogleAppEngine\Properties\AssemblyVersionInfo.cs">
-      <Link>Properties\AssemblyVersionInfo.cs</Link>
+    <Compile Include="..\..\build\AssemblyProjectInfo.cs">
+      <Link>Properties\AssemblyProjectInfo.cs</Link>
     </Compile>
     <Compile Include="FmAbout.cs">
       <SubType>Form</SubType>
@@ -108,8 +108,11 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="..\..\build\package.cmd">
-      <Link>Build\package.cmd</Link>
+    <None Include="..\..\LICENSE">
+      <Link>Doc\LICENSE</Link>
+    </None>
+    <None Include="..\..\README.md">
+      <Link>Doc\README.md</Link>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -128,16 +131,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\..\build\build.xml">
-      <Link>Build\build.xml</Link>
-    </Content>
-    <Content Include="..\LICENSE.txt">
-      <Link>Doc\LICENSE.txt</Link>
-    </Content>
-    <Content Include="..\README.txt">
-      <Link>Doc\README.txt</Link>
-    </Content>
-    <Content Include="..\RELEASE_NOTES.txt">
+    <Content Include="..\..\RELEASE_NOTES.txt">
       <Link>Doc\RELEASE_NOTES.txt</Link>
     </Content>
     <Content Include="Resource\appengine.ico" />
