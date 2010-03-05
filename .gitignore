@@ -1,0 +1,7 @@
+dist
+src/*.suo
+src/**/Bin
+src/**/bin
+src/**/Obj
+src/**/obj
+src/**/*.user
