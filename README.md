@@ -1,17 +1,17 @@
 GoogleAppEngineLauncher.NET
 ===========================
 
-GoogleAppEngineLauncher.NET  
- is *Un-Official* GoogleAppEngineLauncher for Windows,  
- is a project manager for Google App Engine,  
- is developed by Visual Studio .NET 2008 and run with .NET 2.0 Framework,
- is distributed under BSD License: 
+GoogleAppEngineLauncher.NET
+ - is a project manager for Google App Engine,  
+ - is **Un-Official** GoogleAppEngineLauncher for Windows,  
+ - is developed by Visual Studio .NET 2008 and run with .NET 2.0 Framework,  
+ - is distributed under BSD License: [github](http://github.com/makotokw/GoogleAppEngineLauncher.NET)
 
 Note
 ----
 
- - This is alpha-version. Only some simple functions are implemented.
- - GoogleAppEngineLauncher.NET is just launcher. it dose not include Google App Engine and python.  
+ - This is alpha-version, simple functions are implemented.
+ - GoogleAppEngineLauncher.NET is just launcher. it dose not include Google App Engine SDK and python.  
  You need to download [Google App Engine SDK](http://code.google.com/appengine/downloads.html)
  and [python](http://www.python.org/)
  - Not supoorted Google App Engine SDK for Java.
@@ -20,7 +20,7 @@ Note
 RELESE HISTORY
 ==============
 
-Version 0.1.3 - 
+v0.1.3 (HEAD)
 ---------------
 
  - Moved to github from Google Code

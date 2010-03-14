@@ -131,9 +131,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\..\RELEASE_NOTES.txt">
-      <Link>Doc\RELEASE_NOTES.txt</Link>
-    </Content>
     <Content Include="Resource\appengine.ico" />
     <Content Include="Resource\AppEngine.jpg" />
     <Content Include="Resource\Browse.png" />
