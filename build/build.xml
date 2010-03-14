@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<project default="package">
+<project default="package" xmlns="http://nant.sf.net/release/0.85/nant.xsd">
 	<property name="bin" value="../bin"/>
 	<property name="src" value="../src"/>
 	<property name="version" value="0.1.2.0"/>
