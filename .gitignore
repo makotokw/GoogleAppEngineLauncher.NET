@@ -1,7 +1,11 @@
 dist
 src/*.suo
+src/*.ncb
 src/**/Bin
 src/**/bin
 src/**/Obj
 src/**/obj
 src/**/*.user
+build/*.user
+build/Release
+build/Debug
